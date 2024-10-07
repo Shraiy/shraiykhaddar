@@ -1,0 +1,315 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* Clean and modern font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5; /* Soft background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #f0f0f0; /* Light background */
+    padding: 20px 0;
+    border-bottom: 2px solid #1a73e8; /* Optional border to separate header */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Add some padding */
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 120px; /* Fixed width */
+    height: 120px; /* Fixed height */
+    border-radius: 50%; /* Circular image */
+    object-fit: cover; /* Maintain aspect ratio */
+    border: 3px solid #1a73e8; /* Optional border */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Name Styling */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    flex-grow: 1; /* Take up available space */
+    margin: 0; /* Remove default margin */
+}
+
+/* Navigation Menu Styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Space between items */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #1a73e8;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #1a73e8;
+    color: white;
+}
+
+/* Section Styles */
+section {
+    max-width: 1000px;
+    margin: 50px auto; /* Center the section */
+    padding: 40px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Section Headings */
+h2 {
+    font-size: 2.5em;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #1a73e8; /* Bottom border */
+    padding-bottom: 10px;
+}
+
+/* Text and Paragraph Styling */
+p, ul {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0 20px 0;
+    text-align: justify; /* Justify text */
+}
+
+/* Project Section */
+.project {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Subtle divider */
+}
+
+.project h3 {
+    font-size: 1.8em; /* Keep this size for project headings */
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.project h4 {
+    font-size: 1.1em; /* Keep the subheading size for dates */
+    color: #777;
+}
+
+.project p {
+    font-size: 1em; /* Change the size of the project descriptions to normal (default) */
+    line-height: 1.5; /* Improve readability */
+    color: #555; /* Text color */
+}
+
+.project img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+/* Work Experience Section */
+#work-experience {
+    margin: 20px auto; /* Center the section */
+    padding: 20px; /* Padding for inner spacing */
+    max-width: 1000px; /* Maintain max width */
+}
+
+.experience {
+    margin-bottom: 30px; /* Space between experiences */
+    padding-bottom: 20px; /* Padding below each experience */
+    border-bottom: 1px solid #ddd; /* Separator between experiences */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center text */
+}
+
+.experience h3 {
+    font-size: 1.8em; /* Main heading font size */
+    color: #333; /* Heading color */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.experience h4 {
+    font-size: 1.2em; /* Subheading font size */
+    color: #777; /* Subheading color */
+    margin-bottom: 15px; /* Space below subheading */
+}
+
+/* Image Styling */
+.website-image {
+    width: 100%; /* Responsive width */
+    max-width: 1000px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 15px; /* Space between text and image */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Education Section */
+.education {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.education h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.education h4 {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+#skills li {
+    background: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Contact Section */
+#contact .contact-info {
+    list-style: none;
+    padding-left: 0;
+    text-align: center; /* Center text */
+}
+
+#contact .contact-info li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#contact a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    section {
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
+
+    h2 {
+        font-size: 2em; /* Smaller section heading */
+    }
+
+    h3 {
+        font-size: 1.5em; /* Smaller project headings */
+    }
+
+    p, ul {
+        font-size: 1em; /* Smaller font for text */
+    }
+
+    .header-container {
+        flex-direction: column; /* Stack header items */
+        text-align: center; /* Center align header text */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation links */
+        gap: 10px; /* Space between links */
+    }
+
+    .profile-pic {
+        margin-bottom: 20px; /* Space below profile image */
+    }
+
+    .website-image {
+        max-width: 90%; /* Adjust max width for smaller screens */
+    }
+}
+
+/* Styling the Ordered List in Projects Section */
+#projects ol {
+    font-size: 1.2em; /* Match project heading size */
+    padding-left: 20px; /* Space between list numbers and content */
+    margin-bottom: 20px; /* Space after the list */
+}
+
+#projects ol li {
+    margin-bottom: 30px; /* Space between each project */
+}
+
+/* Project Heading Styling */
+#projects h3 {
+    font-size: 1.8em; /* Size for project headings */
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+#projects h4 {
+    font-size: 1.2em; /* Subheading (date) font size */
+    color: #777;
+}
+
+/* Section Borders */
+section {
+    border: 1px solid #ddd; /* Optional section borders */
+    border-radius: 10px; /* Rounded corners for sections */
+}
+/* Footer Styling */
+footer {
+    background-color: #c8c7c6; /* Background color */
+    color: rgb(21, 50, 216); /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 20px 0; /* Padding above and below */
+    margin-top: 50px; /* Space between footer and the previous section */
+}
+
+.footer-container {
+    max-width: 1200px; /* Max width for the content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding to the sides */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 1.1em; /* Font size */
+    text-align: center; /* Ensure the copyright text is centered */
+}
+
